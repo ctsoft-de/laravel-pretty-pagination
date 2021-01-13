@@ -1,0 +1,42 @@
+{
+    "name": "ctsoft/laravel-pretty-pagination",
+    "description": "Pretty pagination URLs for Laravel.",
+    "keywords": [
+        "laravel",
+        "pagination",
+        "pretty"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CTSoft",
+            "email": "info@ctsoft.de"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/container": "^6.0|^7.0|^8.0",
+        "illuminate/http": "^6.0|^7.0|^8.0",
+        "illuminate/pagination": "^6.0|^7.0|^8.0",
+        "illuminate/routing": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CTSoft\\Laravel\\PrettyPagination\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CTSoft\\Laravel\\PrettyPagination\\Providers\\PrettyPaginationProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
