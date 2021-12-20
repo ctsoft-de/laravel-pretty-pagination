@@ -1,5 +1,5 @@
 {
-    "name": "ctsoft/laravel-pretty-pagination",
+    "name": "brcodepl/laravel-pretty-pagination",
     "description": "Pretty pagination URLs for Laravel.",
     "keywords": [
         "laravel",
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.3",
         "illuminate/container": "^6.0|^7.0|^8.0",
         "illuminate/http": "^6.0|^7.0|^8.0",
         "illuminate/pagination": "^6.0|^7.0|^8.0",
