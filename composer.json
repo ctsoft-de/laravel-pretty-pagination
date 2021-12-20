@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.3|^8.0",
         "illuminate/container": "^6.0|^7.0|^8.0",
         "illuminate/http": "^6.0|^7.0|^8.0",
         "illuminate/pagination": "^6.0|^7.0|^8.0",
@@ -35,6 +35,8 @@
         }
     },
     "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
         "sort-packages": true
     },
     "minimum-stability": "dev",
