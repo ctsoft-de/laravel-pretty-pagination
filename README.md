@@ -11,7 +11,7 @@ http://localhost/users/page/2
 Install this package via Composer:
 
 ```
-composer require ctsoft/laravel-pretty-pagination
+composer require brcodepl/laravel-pretty-pagination
 ```
 
 ## Usage
